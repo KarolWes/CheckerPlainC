@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="allegro_test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/allegro_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_acodec.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_audio.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_color.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_dialog.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_font.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_image.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_main.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_memfile.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_physfs.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_primitives.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_ttf.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_video.so" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/allegro_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Unit filename="module.cpp" />
+		<Unit filename="module.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

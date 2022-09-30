@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1624009886 source:/home/karolwes/Dokumenty/cpp/allegro_test/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<allegro5/allegro5.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	"module.h"
+
+1624008081 source:/home/karolwes/Dokumenty/cpp/allegro_test/module.c
+	"module.h"
+
+1624009809 /home/karolwes/Dokumenty/cpp/allegro_test/module.h
+
+1624009809 source:/home/karolwes/Dokumenty/cpp/allegro_test/module.cpp
+	"module.h"
+
